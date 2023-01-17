@@ -2,10 +2,10 @@
 Complete the script.
 """
 # DOMAIN LISTED: PUZZLES
-#Code for Task 4 Project included below. I have also included my practice code.
-#This coding will measure three puzzle box sizes three siblings will randomly grab from the shelf.
+# Code for Task 4 Project included below. I have also included my practice code.
+# his coding will measure three puzzle box sizes three siblings will randomly grab from the shelf.
 
-"""Find three tpuzzle box sizes values."""
+"""Find three puzzle box sizes values."""
 print()
 print("REQUEST ALL PUZZLE BOX SIZES")
 print("----------------------------")

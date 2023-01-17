@@ -11,11 +11,15 @@ analyzing data.
 
 import random
 
+# Fix the code below to print the name using an f-string
+# Right now, the user choses wolf everytime.
+# Modify the code so the user is asked to
+# enter wolf, eagle, or snake.
+# Hint: use the input() function
+#user_choice = "wolf"
 # Change the name below to a name of your choice
 
 name = "ForestMaster"
-
-# Fix the code below to print the name using an f-string
 
 print()
 print("Hello, I'm", (f'{name}'), "your gamebot.")
@@ -27,13 +31,8 @@ print("The snake bites the wolf.")
 print("I'll pick one and you pick one and we'll see who wins.")
 print()
 
-# Right now, the user choses wolf everytime.
-# Modify the code so the user is asked to
-# enter wolf, eagle, or snake.
-# Hint: use the input() function
+# System prompts the user for an animal
 user_choice = input("Your turn to pick. Type in wolf, eagle, or snake.  ")
-#user_choice = "wolf"
-
 # Now the bot will pick one
 buddy_choice = random.choice(["wolf", "eagle", "snake"])
 
@@ -43,11 +42,12 @@ print(f"You said {user_choice}.")
 print(f"I said {buddy_choice}.")
 print()
 
-
 # Now we need to compare the choices and determine the winner
 # Complete the logic to
 # compare the choices and print who won
 # In Python, indentation is important!
+
+# Evaluate all scenarios and display who won
 if user_choice == buddy_choice:
     print("We tied!")
 if user_choice == "wolf" and buddy_choice == "eagle":
