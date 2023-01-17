@@ -1,1 +1,45 @@
 # Paste the output from a sample run here.
+PS C:\Users\JMC\Documents\datafun-01-getting-started> & C:/Users/JMC/anaconda3/python.exe c:/Users/JMC/Documents/datafun-01-getting-started/user_script.py
+
+REQUEST ALL PUZZLE BOX SIZES
+----------------------------
+Enter first puzzle box size: 875
+875.0
+Enter second puzzle box size: 450
+450.0
+Enter third puzzle box size: 125
+125.0
+
+SUM OF ALL PUZZLE BOX SIZES
+---------------------------
+1450.0
+
+AVERAGE OF ALL PUZZLE BOX SIZES
+-------------------------------
+483.33
+
+PRODUCT OF ALL PUZZLE BOX SIZES
+-------------------------------
+49218750.0
+
+SMALLEST OF ALL PUZZLE BOX SIZES
+--------------------------------
+Minimum value is 125.0
+
+LARGEST OF ALL PUZZLE BOX SIZES
+-------------------------------
+Maximum value is 875.0
+
+RANGE OF ALL PUZZLE BOX SIZES
+-----------------------------
+Range:  125.0 - 875.0
+
+WHAT SIZE WAS THE SECOND PUZZLE BOX CHOSEN?
+------------------------------------------
+Small  = 100 and less pieces
+Medium = 101 to 500 pieces
+Large  = 501 and greater pieces
+
+Second value entered:  450.0
+
+The second puzzle box chosen is a medium box.
